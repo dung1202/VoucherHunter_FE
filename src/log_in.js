@@ -79,7 +79,7 @@ export default function LogIn(props) {
                             setusername(e.target.value);
                         }}
                         type="text"
-                        placeholder="Tên đăng nhập"
+                        placeholder="Tên đăng nhập (test: tiendung)"
                         autoFocus
                     />
                     <div className="text_login">Mật khẩu: </div>
@@ -101,7 +101,7 @@ export default function LogIn(props) {
                             onChange={(e) => {
                                 setpassword(e.target.value);
                             }}
-                            placeholder="Mật khẩu"
+                            placeholder="Mật khẩu (test: tiendung12345)"
                         />
                     </label>
                     <div className="check_loi">{err}</div>
