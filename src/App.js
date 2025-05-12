@@ -102,7 +102,7 @@ function App() {
         }
         // console.log(newsRes.data.totalNews % 10)
         if (newsRes.data.totalNews % 10 === 0) {
-          console.log(newsRes.data.totalNews / 10)
+          // console.log(newsRes.data.totalNews / 10)
           setSoTrang(newsRes.data.totalNews/ 10)
         } else setSoTrang((newsRes.data.totalNews / 10) + 1)
 
